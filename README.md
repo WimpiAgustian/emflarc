@@ -4,7 +4,31 @@ Skrip Python untuk menanamkan (*embed*) lirik secara massal langsung ke metadata
 
 ## Cara Instalasi & Penggunaan di Termux (Android)
 
-Salin seluruh blok perintah di bawah ini, lalu tempel (*paste*) langsung ke dalam aplikasi Termux Anda:
+Jalankan perintah-perintah di bawah ini di dalam aplikasi Termux Anda baris demi baris secara berurutan:
 
+### 1. Izin Akses Penyimpanan HP
 ```bash
-termux-setup-storage && pkg update && pkg install python git -y && pip install mutagen requests && git clone [https://github.com/WimpiAgustian/emflrc.git](https://github.com/WimpiAgustian/emflrc.git) && cd emflrc && python embed_lyrics.py
+termux-setup-storage
+```
+2. Install Dependensi Modul Python
+```bash
+pip install mutagen requests
+```
+3. Clone repo
+```bash
+git clone https://github.com/WimpiAgustian/emflarc.git
+```
+4. Masuk ke folder proyek
+```bash
+cd emflarc
+```
+5. Jalankan skrip
+```bash
+python embed_lyrics.py
+```
+
+### Notes
+
+Catatan Penggunaan:
+Setelah skrip utama dijalankan, Anda akan diminta memasukkan lokasi folder musik. Ketik atau tempel path folder tempat file FLAC disimpan.
+Contoh: /storage/emulated/0/Music/LaguFLAC
