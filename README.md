@@ -1,4 +1,4 @@
-# emflrc - FLAC Batch Lyrics Embedder
+# emflarc - FLAC Batch Lyrics Embedder
 
 Skrip Python untuk menanamkan (*embed*) lirik secara massal langsung ke metadata file FLAC lokal menggunakan API gratis dari LRCLIB. Skrip ini otomatis memprioritaskan lirik berjalan (*synced lyrics* berformat `.lrc`) dan akan menggunakan lirik biasa jika lirik sinkronisasi tidak tersedia di database.
 
