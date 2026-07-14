@@ -6,7 +6,7 @@ Skrip Python untuk menanamkan (*embed*) lirik secara massal langsung ke metadata
 
 Jalankan perintah-perintah di bawah ini di dalam aplikasi Termux Anda baris demi baris secara berurutan:
 
-### 1. Izin Akses Penyimpanan HP
+1. Izin Akses Penyimpanan HP
 ```bash
 termux-setup-storage
 ```
