@@ -1,6 +1,7 @@
-# emflarc - FLAC Batch Lyrics Embedder
+# emflrc - Multi-Format Batch Lyrics Embedder
 
-Skrip Python untuk menanamkan (*embed*) lirik secara massal langsung ke metadata file FLAC lokal menggunakan API gratis dari LRCLIB. Skrip ini otomatis memprioritaskan lirik berjalan (*synced lyrics* berformat `.lrc`) dan akan menggunakan lirik biasa jika lirik sinkronisasi tidak tersedia di database.
+Skrip Python untuk menanamkan (*embed*) lirik secara massal langsung ke metadata berbagai file audio lokal (**FLAC, MP3, M4A, ALAC, WAV**) menggunakan API gratis dari LRCLIB. Skrip ini otomatis memprioritaskan lirik berjalan (*synced lyrics* berformat `.lrc`) dan menggunakan lirik biasa jika lirik sinkronisasi tidak tersedia.
+
 
 ## Cara Instalasi & Penggunaan di Termux (Android)
 
