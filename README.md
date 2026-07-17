@@ -11,19 +11,23 @@ Jalankan perintah-perintah di bawah ini di dalam aplikasi Termux Anda baris demi
 ```bash
 termux-setup-storage
 ```
-2. Install Dependensi Modul Python
+2. Update system & Install Python
+```bash
+pkg update && pkg install python git -y
+```
+3. Install Dependensi Modul Python
 ```bash
 pip install mutagen requests
 ```
-3. Clone repo
+4. Clone repo
 ```bash
 git clone https://github.com/WimpiAgustian/emflarc.git
 ```
-4. Masuk ke folder proyek
+5. Masuk ke folder proyek
 ```bash
 cd emflarc
 ```
-5. Jalankan skrip
+6. Jalankan skrip
 ```bash
 python embed_lyrics.py
 ```
